@@ -21,6 +21,8 @@
         </section>
 
         <section class="main-content">
+
+            <!-- Sisi Kiri -->
             <aside>
                 <header>
                     <h1 class="luas-segitiga-header">Luas Segitiga</h1>
@@ -29,6 +31,7 @@
                 <article class="luas-segitiga-content">
                     <div class="luas-segitiga-img"></div>
                     <p>Rumus Luas Segitiga:</p>
+
                 </article>
     
                 <hr />
@@ -40,52 +43,72 @@
     
                     <div class="input-wrapper">
                         <label for="panjang-alas">Panjang Alas:</label>
-                        <input id="panjang-alas" />
+                        <input id="panjang-alas" type="number" required />
                     </div>
+
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi:</label>
-                        <input id="tinggi" />
+                        <input id="tinggi" type="number" required/>
                     </div>
     
                     <p id="result">Hasil Perhitungan</p>
-    
-                    <button>Hitung</button>
-                </form>
+                    <input id="LuasSegitiga" type="number" disabled=TRUE/>
+                    <br/>
+                    <button onclick="validateLuasSegitiga()" type="button">Hitung</button>
+                    <button onclick="ResetLuasSegitiga()" type="button">Reset</button>
+                    </form>
+
             </aside>
             
+            <!-- Sisi Kanan -->
             <aside>
                 <header>
-                    <h1 class="luas-segitiga-header">Luas Segitiga</h1>
+                    <h1 class="keliling-segitiga-header">Keliling Segitiga</h1>
                 </header>
     
-                <article class="luas-segitiga-content">
-                    <div class="luas-segitiga-img"></div>
-                    <p>Rumus Luas Segitiga:</p>
+                <article class="keliling-segitiga-content">
+                    <div class="keliling-segitiga-img"></div>
+                    <p>Rumus Keliling Segitiga</p>
+    
                 </article>
     
-                <hr />
+                <hr/>
     
                 <form>
                     <header>
-                        <h1 class="luas-segitiga-form-header">Hitung Luas Segitiga</h1>
+                        <h1 class="keliling-segitiga-form-header">Hitung Keliling Segitiga</h1>
                     </header>
-    
+                    
                     <div class="input-wrapper">
-                        <label for="panjang-alas">Panjang Alas:</label>
-                        <input id="panjang-alas" />
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="tinggi">Tinggi:</label>
-                        <input id="tinggi" />
+                        <label for="sisi-A">Sisi A:</label>
+                        <input id="sisi-A" type="number" required/>
                     </div>
     
-                    <p id="result">Hasil Perhitungan</p>
+                    <div class="input-wrapper">
+                        <label for="sisi-B">Sisi B:</label>
+                        <input id="sisi-B" type="number" required/>
+                    </div>
     
-                    <button>Hitung</button>
+                    <div class="input-wrapper">
+                        <label for="sisi-C">Sisi C:</label>
+                        <input id="sisi-C" type="number" required/>
+                    </div>
+    
+                    <p id="result">Hasil Penghitungan:</p>
+                    <input id="KelilingSegitiga" type="number" disabled=TRUE/>
+                    <br/>
+                    <button onclick="validateKelilingSegitiga()" type="button">Hitung</button>
+                    <button onclick="ResetKelilingSegitiga()" type="button">Reset</button>
                 </form>
+    
             </aside>
-        </section>
-    </main>
-</body>
-
-</html>
+        </section>  
+        </main>
+    
+        <footer>
+    
+        </footer>
+    
+        <script src="js\script.js"></script>
+    </body>
+    </html>

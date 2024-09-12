@@ -1,29 +1,27 @@
-/* Ini CSS */
-
-.main-header {
+.main-header{
     text-align: center;
 }
 
-.selection-content {
+.selection-content{
     display: flex;
     flex-direction: column;
 }
 
-.selection-btn {
-    height: 32px;
-    border: none;
+.selection-button{
+    height:32px;
+    border:none;
     border-radius: 8px;
 }
 
-.bisque-color {
+.bisque-color{
     background-color: bisque;
 }
 
-.aqua-color {
-    background-color: white;
+.aqua-color{
+    background-color:whitesmoke;
 }
 
-.luas-segitiga-header  {
+.luas-segitiga-header{
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0px;
@@ -31,48 +29,82 @@
     text-align: center;
 }
 
-.luas-segitiga-content {
-    display: flex;
+.luas-segitiga-content{
+    display:flex;
     flex-direction: column;
 }
 
-.luas-segitiga-img {
-    height: 300px;
+.luas-segitiga-img{
+    height: 200px;
     width: 300px;
-    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOHopTsoN_490kzqUw5uTolc43iGNWav9yhx88qhYupC2C1s1L);
+    border: 1px solid;
+    background-image: url(https://cdn-web.ruangguru.com/landing-pages/assets/hs/Rumus%20Luas%20Segitiga%20Jika%20Diketahui%20Alas%20dan%20Tinggi%20-%20Matematika%20Kelas%207.png);
     background-size: cover;
+    background-position:bottom;
+    align-self: center;
+}
+
+.luas-segitiga-form-header{
+    text-align: center;
+}
+
+.keliling-segitiga-header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue;
+    text-align: center;
+}
+
+.keliling-segitiga-content{
+    display:flex;
+    flex-direction: column;
+}
+
+.keliling-segitiga-img{
+    height: 200px;
+    width: 300px;
+    border: 1px solid;
+    background-image: url(https://cdn-web.ruangguru.com/landing-pages/assets/hs/Rumus%20Keliling%20Segitiga%20-%20Matematika%20Kelas%207.png);
+    background-size:cover;
     background-position: center;
     align-self: center;
 }
 
-.luas-segitiga-form-header {
+.keliling-segitiga-form-header{
     text-align: center;
 }
 
-.input-wrapper {
+.input-wrapper{
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.input-wrapper>input {
+.input-wrapper>input{
     width: 65%;
 }
 
-.input[type=number] {
+input[type=number]{
     padding: 12px 20px;
-    max-resolution: 8px 0;
+    margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
-.main-content {
+.main-content{
     display: flex;
 }
 
-.main-content>aside {
+.main-content>aside{
     flex: 1;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content{
+        flex-direction: column;
+    }
 }
