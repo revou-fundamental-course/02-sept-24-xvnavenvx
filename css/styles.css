@@ -44,3 +44,17 @@
     background-position: center;
     align-self: center;
 }
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper>input {
+    width: 65%;
+}
