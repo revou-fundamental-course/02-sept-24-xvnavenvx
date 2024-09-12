@@ -20,7 +20,7 @@
 }
 
 .aqua-color {
-    background-color: aqua;
+    background-color: white;
 }
 
 .luas-segitiga-header  {
@@ -29,4 +29,18 @@
     margin: 0px;
     background: cornflowerblue;
     text-align: center;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOHopTsoN_490kzqUw5uTolc43iGNWav9yhx88qhYupC2C1s1L);
+    background-position: center;
+    align-self: center;
 }
