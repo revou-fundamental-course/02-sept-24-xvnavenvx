@@ -22,3 +22,11 @@
 .aqua-color {
     background-color: aqua;
 }
+
+.luas-segitiga-header  {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue;
+    text-align: center;
+}
