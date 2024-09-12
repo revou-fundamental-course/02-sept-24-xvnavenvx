@@ -53,8 +53,18 @@
     width: 50%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .input-wrapper>input {
     width: 65%;
+}
+
+.input[type=number] {
+    padding: 12px 20px;
+    max-resolution: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
